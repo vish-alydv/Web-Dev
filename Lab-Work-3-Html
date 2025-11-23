@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">My Portfolio</div>
+
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section class="hero">
+    <div class="hero-container">
+
+      
+      <div class="hero-text">
+        <h1>Hi, I am Vishal</h1>
+        <h2>Website Designer Developer</h2>
+        <p>Building modern web Websites.</p>
+      </div>
+
+      
+      <div class="hero-image">
+        <img src="" alt="Portfolio profile of Vishal">
+      </div>
+    </div>  
+    </section>
+
+    <section class="about" id="about">
+      <h2>About Me</h2>
+    <p>
+      Hello, my name is Vishal. I am pursuing Btech in computer science from KR Mangalam University. Currently, I am in my first year.
+    </p>
+  </section>
+
+  
+  <section class="skills" id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+      <div class="skill-card">
+        <h3>HTML</h3>
+        <p>Beginner</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>CSS</h3>
+        <p>Beginner</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Designer</h3>
+        <p>Learning</p>
+      </div>
+
+
+    </div>
+  </section>
+
+      <section class="projects" id="projects">
+    <h2>My Projects</h2>
+
+    <div class="projects-container">
+
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>A simple HTML & CSS webpage.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>Portfolio page</p>
+      </div>
+
+    </div>
+  </section>
+
+     
+ <section class="contact" id="contact">
+  <h2>Contact Me</h2>
+
+  <div class="contact-box">
+    <form>
+
+      <div class="input-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email">
+      </div>
+
+      <div class="input-group">
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" placeholder="Write your message"></textarea>
+      </div>
+
+      <button type="submit" class="send-btn">Send</button>
+
+    </form>
+  </div>
+ </section>
+
+
+
+       
+  <footer class="footer">
+    <p>© Vishal</p>
+    
+  </footer>
+
+
+  
+  <a href="#top" class="back-to-top">↑ Back To Top</a>
+
+
+
+
+
+</body>
+</html>
